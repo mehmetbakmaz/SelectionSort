@@ -1,0 +1,29 @@
+
+Insertion Sort için verilen dizi: [22,27,16,2,18,6]
+Aşamalar:
+* [22,27,16,2,18,6] - İlk eleman zaten sıralanmış kabul edilir.
+* [22,27,16,2,18,6] - 27 zaten doğru pozisyonda.
+* [16,22,27,2,18,6] - 16, 27'nin önüne taşınır.
+* [2,16,22,27,18,6] - 2, tüm elemanların önüne taşınır.
+* [2,16,18,22,27,6] - 18, 22'nin önüne taşınır.
+* [2,6,16,18,22,27] - 6, 22 ve 27'nin önüne taşınır.
+Sonuç: [2,6,16,18,22,27]
+Big-O Gösterimi:
+Time Complexity: O(n^2) 
+18 sayısının durumu:
+Sıralandıktan sonraki dizi: [2,6,16,18,22,27]
+18, sıralandıktan sonraki dizide ortada yer aldığı için Average case'e girer.
+
+
+Selection Sort için verilen dizi: [7,3,5,8,2,9,4,15,6]
+İlk 4 adım:
+* [2,3,5,8,7,9,4,15,6] - En küçük eleman 2, 7 ile yer değiştirir.
+* [2,3,5,8,7,9,4,15,6] - En küçük eleman 3, doğru yerde.
+* [2,3,4,8,7,9,5,15,6] - En küçük eleman 4, 5 ile yer değiştirir.
+* [2,3,4,5,7,9,8,15,6] - En küçük eleman 5, 8 ile yer değiştirir.
+Bu 4 adımdan sonra dizi: [2,3,4,5,7,9,8,15,6] olur.
+
+
+
+
+
